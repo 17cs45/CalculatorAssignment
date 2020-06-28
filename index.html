@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div >
+            <input id="getdata" class="result" type="text">
+        </div>
+        <div >
+            <button onclick="clearresult()" class="clearBtn">C</button>    
+        </div>
+        <div>
+            <button class="btn" onclick="Factorial()">n!</button>
+            <button class="btn" onclick="getdata('7')">7</button>
+            <button class="btn" onclick="getdata('8')">8</button>
+            <button class="btn" onclick="getdata('9')">9</button>
+            <button class="btn" onclick="getdata('/')">/</button>
+        </div>
+        <div>
+            <button class="btn" onclick="cube()">x<sup>3</sup> </button>
+            <button class="btn" onclick="getdata('4')">4</button>
+            <button class="btn" onclick="getdata('5')">5</button>
+            <button class="btn" onclick="getdata('6')">6</button>
+            <button class="btn" onclick="getdata('*')">X</button>
+        </div>
+        <div>
+            <button class="btn" onclick="square()">x<sup>2</sup></button>
+            <button class="btn" onclick="getdata('1')">1</button>
+            <button class="btn" onclick="getdata('2')">2</button>
+            <button class="btn" onclick="getdata('3')">3</button>
+            <button class="btn" onclick="getdata('-')">-</button>
+        </div>
+        <div>
+            <button class="btn" onclick="getdata('0')">0</button>
+            <button class="btn" onclick="inverse()">1/x</button>
+            <button class="btn" onclick="getdata('.')">.</button>
+            <button class="btn" onclick="abs()">|x|</button>
+            <button class="btn" onclick="getdata('+')">+</button>
+        </div>
+        <div>
+            <button class="btn" onclick="sin()">sin</button>
+            <button class="btn" onclick="cos()">cos</button>
+            <button class="btn" onclick="tan()">tan</button>
+            <button class="btn" onclick="PI()">π</button>
+            <button class="btn" onclick="exp()">e</button>
+        </div>
+        <div>
+            <button onclick="getresult()" class="halfbtn">=</button>
+        </div>
+    </div>
+</body>
+</html>
